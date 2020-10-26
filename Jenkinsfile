@@ -7,5 +7,4 @@ properties([
     ])
 ])
 
-
 dldtPipelineEntrypoint(this)
