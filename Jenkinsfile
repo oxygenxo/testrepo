@@ -10,7 +10,7 @@ properties([
             name: 'library_version')
     ])
 ])
-
+env.getEnvironment().each { name, value -> println "Name: $name -> Value $value" }
 loadOpenVinoLibrary { thelib ->
     client = thelib.com.intel.openvino.client.ClientFactory.buildClient(this, false)
     changeset = client.getChangedFiles()
