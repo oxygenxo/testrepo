@@ -12,3 +12,4 @@ properties([
 ])
 
 echo "Hello, world"
+echo "Some change"
