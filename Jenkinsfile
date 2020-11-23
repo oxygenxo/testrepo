@@ -11,6 +11,4 @@ properties([
     ])
 ])
 
-loadOpenVinoLibrary {
-    entrypoint(this)
-}
+echo "Hello, world"
